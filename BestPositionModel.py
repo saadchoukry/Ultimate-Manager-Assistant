@@ -168,20 +168,5 @@ def model(X_train, Y_train, X_test, Y_test, learning_rate = 0.0001,
 ## Running training/test
 model(xTrain, yTrain, xTest, yTest, learning_rate = 0.6,
           num_epochs = 500, minibatch_size = 512, print_cost = True)
-"""
-dataPath = "C:\\Users\\Saad\\Desktop\\soccer_prediction\\raw_players_data.json"
-positionToLabels = {'GK': 0, 'CAM': 1, 'CB': 2, 'RW': 3, 'CF': 4, 'CM': 5, 
-                    'ST': 6, 'LM': 7, 'RB': 8, 'RM': 9, 'LB': 10, 'CDM': 11, 
-                    'LW': 12, 'LWB': 13, 'RWB': 14, 'RF': 15, 'SW': 16,'LF':17}
 
-df = pd.read_json(dataPath)
 
-df = df[['pos', 'Crossing', 'Finishing',
-       'Heading Accuracy', 'Short Passing', 'Volleys', 'Dribbling', 'Curve',
-       'FK Accuracy', 'Long Passing', 'Ball Control', 'Acceleration',
-       'Sprint Speed', 'Agility', 'Reactions', 'Balance', 'Shot Power',
-       'Jumping', 'Stamina', 'Strength', 'Long Shots', 'Aggression',
-       'Interceptions', 'Positioning', 'Vision', 'Penalties', 'Composure',
-       'Defensive Awareness', 'Standing Tackle', 'Sliding Tackle', 'GK Diving',
-       'GK Handling', 'GK Kicking', 'GK Positioning', 'GK Reflexes']]
-"""
