@@ -26,17 +26,17 @@ Implemented models (3) are:
   - Best position 
   - Match prediction
   
-To tune/rerun the training
-  ```python
+To tune/rerun the training, edit and run:
+  ```bash
   python dataRecoveryModel.py
   ```
 
-  ```python
+  ```bash
   python BestPositionModel.py
   ```
   
   
-  ```python
+  ```bash
   matchPredictionModel.py
   ```
 ## Contributing
