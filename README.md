@@ -1,7 +1,7 @@
 ![Image](https://cdn.discordapp.com/attachments/695016572342894653/740639387221622824/logo.png)
 # Ultimate manager assistant
 
-Ultimate manager assistant is a ML powered tool that is designed to help assist football coach in making better decisions and predict the outcome of a certain game based on parameters characterizing it
+Ultimate manager assistant is a ML powered tool that is designed to help assist football coaches in making better decisions and predict the outcome of a certain game based on parameters characterizing it
 
 ## Getting Started
 
