@@ -20,10 +20,25 @@ scrapy crawl player
 
 ## Usage
 
-```python
+## Usage
+Implemented models (3) are:
+  - Composure/Defensive awareness recovery:
+  - Best position 
+  - Match prediction
+  
+To tune/rerun the training
+  ```python
+  python dataRecoveryModel.py
+  ```
 
-```
-
+  ```python
+  python BestPositionModel.py
+  ```
+  
+  
+  ```python
+  matchPredictionModel.py
+  ```
 ## Contributing
 - Saad Choukry
 - Nawfal El Hamdouchi
