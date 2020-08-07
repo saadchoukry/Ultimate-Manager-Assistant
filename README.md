@@ -19,6 +19,13 @@ scrapy crawl player -o PL_RESULT.json -t json
 ```
 
 ## Usage
+After downloading the datasets and moving them to the root of the project, you will need to dispatch the one related to players:
+```bash
+python playersDispatcher.py
+```
+New files will be added to "dispatchedPlayers" directory
+
+# Models
 Implemented models (3) are:
   - Composure/Defensive awareness recovery:
   - Best position 
