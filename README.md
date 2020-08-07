@@ -18,7 +18,6 @@ scrapy crawl match
 scrapy crawl player
 ```
 
-## Usage
 
 ## Usage
 Implemented models (3) are:
@@ -37,7 +36,7 @@ To tune/rerun the training, edit and run:
   
   
   ```bash
-  matchPredictionModel.py
+  python matchPredictionModel.py
   ```
 ## Contributing
 - Saad Choukry
