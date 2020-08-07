@@ -10,14 +10,13 @@ Ultimate manager assistant is a ML powered tool that is designed to help assist 
 ```bash
 pip freeze > requirements.txt
 ```
-- Scrapping the data the data (ach ay dir)
+- Scrapping the data the data (or download it from this [link](https://drive.google.com/drive/u/0/folders/1auaMhuaCTkLGLXwcmeB8Zn9gWGfAfkgv))
 ```bash
-scrapy crawl match
+scrapy crawl match -o PL_PLYRS.json -t json
 ```
 ```bash
-scrapy crawl player
+scrapy crawl player -o PL_RESULT.json -t json
 ```
-
 
 ## Usage
 Implemented models (3) are:
