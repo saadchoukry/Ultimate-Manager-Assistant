@@ -5,12 +5,12 @@ Ultimate manager assistant is a ML powered tool that is designed to help assist 
 
 ## Getting Started
 
-- Clone this repo
-- Install the dependencies
+- Cloning this repo
+- Installing the dependencies
 ```bash
 pip freeze > requirements.txt
 ```
-- Scrapping the data the data (or download it from this [link](https://drive.google.com/drive/u/0/folders/1auaMhuaCTkLGLXwcmeB8Zn9gWGfAfkgv))
+- Scrapping the data (or download it from this [link](https://drive.google.com/drive/u/0/folders/1auaMhuaCTkLGLXwcmeB8Zn9gWGfAfkgv))
 ```bash
 scrapy crawl match -o PL_PLYRS.json -t json
 ```
